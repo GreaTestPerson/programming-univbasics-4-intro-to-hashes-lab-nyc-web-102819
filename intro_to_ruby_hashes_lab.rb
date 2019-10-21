@@ -19,12 +19,7 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
-  # return the correct value using the hash and key parameters
-  person={:name =>"Steve"}
-  if person[:age]
-    puts "age 31"
-  else
-    puts "no age"
+  hash[key]
 end
 
 def update_counting_hash(hash, key)
